@@ -106,7 +106,7 @@ export default function Home() {
               We are dedicated to providing you with unparalleled service and access to a world of possibilities.
             </p>
           </div>
-          <div className="grid gap-8 grid-cols-3">
+          <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
             <Card>
               <CardHeader className="items-center">
                 <div className="p-3 bg-primary/10 rounded-full">
