@@ -68,20 +68,18 @@ export function SiteHeader() {
                     <span className="ml-2 font-bold font-headline">Al Krabi</span>
                   </Link>
                 </SheetTitle>
-                <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
-                  <X className="h-5 w-5" />
-                  <span className="sr-only">Close Menu</span>
-                </Button>
               </SheetHeader>
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-2 pr-6">
                 {navItems.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={cn(
-                      "flex items-center gap-3 rounded-md p-3 text-sm font-medium hover:bg-accent hover:text-accent-foreground",
-                      pathname === item.href ? "bg-accent" : "transparent"
+                      "flex items-center gap-3 rounded-md p-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground",
+                      pathname === item.href
+                        ? "bg-primary text-primary-foreground"
+                        : "text-foreground/70"
                     )}
                   >
                     <item.icon className="h-5 w-5" />
