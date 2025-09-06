@@ -24,6 +24,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    // This is to allow the Next.js dev server to be proxied in the editor.
+    allowedDevOrigins: ['*'],
+  },
 };
 
 export default nextConfig;
