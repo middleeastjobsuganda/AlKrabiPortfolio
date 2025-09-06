@@ -82,8 +82,6 @@ export default function TravelPage() {
                     fill
                     className="object-cover"
                     data-ai-hint={pkg.hint}
-                    width={600}
-                    height={400}
                 />
             </div>
             <CardHeader>

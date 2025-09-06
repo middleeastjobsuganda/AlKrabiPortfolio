@@ -84,8 +84,6 @@ export default function OpportunitiesPage() {
                 fill
                 className="object-cover"
                 data-ai-hint={opportunity.hint}
-                width={600}
-                height={400}
               />
             </div>
             <CardHeader>
