@@ -23,21 +23,21 @@ const testimonials = [
 ];
 
 const teamMembers = [
-  { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=1', bio: 'Dedicated to connecting you with global opportunities.', hint: 'person smiling' },
-  { name: 'David Amankwah', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=2', bio: 'An expert in curating unforgettable travel experiences.', hint: 'person outdoors' },
-  { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=3', bio: 'Passionate about helping you find your next career move.', hint: 'professional person' },
-  { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=4', bio: 'Committed to providing personalized service and support.', hint: 'person smiling' },
-  { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=5', bio: 'Dedicated to connecting you with global opportunities.', hint: 'person outdoors' },
-  { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=6', bio: 'An expert in curating unforgettable travel experiences.', hint: 'professional person' },
-  { name: 'Wasim Al Janati', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=7', bio: 'Passionate about helping you find your next career move.', hint: 'person smiling' },
-  { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=8', bio: 'Committed to providing personalized service and support.', hint: 'person outdoors' },
-  { name: 'Hritik kumar', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=9', bio: 'Dedicated to connecting you with global opportunities.', hint: 'professional person' },
-  { name: 'Shashika Jayaweera', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=10', bio: 'An expert in curating unforgettable travel experiences.', hint: 'person smiling' },
-  { name: 'Jaishankar Babu', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=11', bio: 'Passionate about helping you find your next career move.', hint: 'person outdoors' },
-  { name: 'Shameer Chirammal House', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=12', bio: 'Committed to providing personalized service and support.', hint: 'professional person' },
-  { name: 'Ashish Nepal', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=13', bio: 'Dedicated to connecting you with global opportunities.', hint: 'person smiling' },
-  { name: 'Muhammad Munim Khan', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=14', bio: 'An expert in curating unforgettable travel experiences.', hint: 'person outdoors' },
-  { name: 'Marwan Marwan', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=15', bio: 'Passionate about helping you find your next career move.', hint: 'professional person' },
+  { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=1', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+  { name: 'David Amankwah', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=2', bio: 'An expert in curating unforgettable travel experiences.', hint: 'man outdoors' },
+  { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=3', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
+  { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=4', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
+  { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=5', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+  { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=6', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman smiling' },
+  { name: 'Wasim Al Janati', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=7', bio: 'Passionate about helping you find your next career move.', hint: 'man professional' },
+  { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=8', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
+  { name: 'Hritik kumar', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=9', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man outdoors' },
+  { name: 'Shashika Jayaweera', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=10', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman professional' },
+  { name: 'Jaishankar Babu', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=11', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
+  { name: 'Shameer Chirammal House', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=12', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
+  { name: 'Ashish Nepal', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=13', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+  { name: 'Muhammad Munim Khan', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=14', bio: 'An expert in curating unforgettable travel experiences.', hint: 'man outdoors' },
+  { name: 'Marwan Marwan', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=15', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
 ];
 
 
