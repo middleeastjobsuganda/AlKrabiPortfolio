@@ -6,8 +6,8 @@ import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Plane, Briefcase, Wand2, Users, Mail, X } from "lucide-react";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { Menu, Plane, Briefcase, Users, Mail, X } from "lucide-react";
 
 const navItems = [
   { href: "/travel", label: "Travel", icon: Plane },
@@ -61,16 +61,18 @@ export function SiteHeader() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0 bg-background">
-              <div className="flex justify-between items-center mb-6 pr-6">
-                <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
-                  <Plane className="h-6 w-6 text-primary" />
-                  <span className="ml-2 font-bold font-headline">Al Krabi</span>
-                </Link>
+              <SheetHeader className="flex-row justify-between items-center space-y-0 mb-6 pr-6">
+                <SheetTitle>
+                  <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Plane className="h-6 w-6 text-primary" />
+                    <span className="ml-2 font-bold font-headline">Al Krabi</span>
+                  </Link>
+                </SheetTitle>
                 <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
                   <X className="h-5 w-5" />
                   <span className="sr-only">Close Menu</span>
                 </Button>
-              </div>
+              </SheetHeader>
               <div className="flex flex-col space-y-4">
                 {navItems.map((item) => (
                   <Link
