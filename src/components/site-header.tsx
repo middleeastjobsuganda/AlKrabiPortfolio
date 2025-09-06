@@ -25,7 +25,7 @@ export function SiteHeader() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Plane className="h-6 w-6 text-primary" />
-            <span className="font-bold font-headline sm:inline-block">
+            <span className="font-bold font-headline text-lg sm:inline-block">
               Al Krabi
             </span>
           </Link>
@@ -64,7 +64,7 @@ export function SiteHeader() {
                 <SheetTitle>
                   <Link href="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
                     <Plane className="h-6 w-6 text-primary" />
-                    <span className="ml-2 font-bold font-headline">Al Krabi</span>
+                    <span className="ml-2 font-bold font-headline text-lg">Al Krabi</span>
                   </Link>
                 </SheetTitle>
               </SheetHeader>
