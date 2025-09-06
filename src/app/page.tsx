@@ -75,14 +75,14 @@ export default function Home() {
 
       <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
+          <div className="grid grid-cols-2 gap-8">
             <div className="flex flex-col items-center text-center space-y-3">
               <div className="p-4 bg-primary/10 rounded-full">
                 <Plane className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold font-headline">Curated Travel</h3>
-              <p className="text-muted-foreground">
-                Discover breathtaking destinations with our expertly crafted travel packages, designed for every type of adventurer.
+              <p className="text-muted-foreground text-sm">
+                Discover breathtaking destinations with our expertly crafted travel packages.
               </p>
             </div>
             <div className="flex flex-col items-center text-center space-y-3">
@@ -90,8 +90,8 @@ export default function Home() {
                 <Briefcase className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold font-headline">Global Opportunities</h3>
-              <p className="text-muted-foreground">
-                Unlock your potential with international job placements, educational programs, and volunteer projects.
+              <p className="text-muted-foreground text-sm">
+                Unlock your potential with international job placements and educational programs.
               </p>
             </div>
           </div>
