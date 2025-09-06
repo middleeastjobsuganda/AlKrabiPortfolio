@@ -23,27 +23,21 @@ const testimonials = [
 ];
 
 const teamMembers = [
-  {
-    name: "Ali Krabi",
-    role: "Founder & CEO",
-    avatar: "https://picsum.photos/200/200?random=1",
-    bio: "With a passion for exploration and connecting cultures, Ali founded Al Krabi to make global travel and opportunities accessible to everyone.",
-    hint: "man smiling"
-  },
-  {
-    name: "Fatima Ahmed",
-    role: "Head of Travel",
-    avatar: "https://picsum.photos/200/200?random=2",
-    bio: "An expert globetrotter, Fatima curates our unique travel packages, ensuring every trip is a memorable adventure.",
-    hint: "woman outdoors"
-  },
-  {
-    name: "Youssef Chen",
-    role: "Director of Opportunities",
-    avatar: "https://picsum.photos/200/200?random=3",
-    bio: "Youssef builds bridges for professionals and students, finding life-changing opportunities across the globe.",
-    hint: "man professional"
-  },
+  { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=1', bio: 'Dedicated to connecting you with global opportunities.', hint: 'person smiling' },
+  { name: 'David Amankwah', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=2', bio: 'An expert in curating unforgettable travel experiences.', hint: 'person outdoors' },
+  { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=3', bio: 'Passionate about helping you find your next career move.', hint: 'professional person' },
+  { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=4', bio: 'Committed to providing personalized service and support.', hint: 'person smiling' },
+  { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=5', bio: 'Dedicated to connecting you with global opportunities.', hint: 'person outdoors' },
+  { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=6', bio: 'An expert in curating unforgettable travel experiences.', hint: 'professional person' },
+  { name: 'Wasim Al Janati', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=7', bio: 'Passionate about helping you find your next career move.', hint: 'person smiling' },
+  { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=8', bio: 'Committed to providing personalized service and support.', hint: 'person outdoors' },
+  { name: 'Hritik kumar', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=9', bio: 'Dedicated to connecting you with global opportunities.', hint: 'professional person' },
+  { name: 'Shashika Jayaweera', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=10', bio: 'An expert in curating unforgettable travel experiences.', hint: 'person smiling' },
+  { name: 'Jaishankar Babu', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=11', bio: 'Passionate about helping you find your next career move.', hint: 'person outdoors' },
+  { name: 'Shameer Chirammal House', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=12', bio: 'Committed to providing personalized service and support.', hint: 'professional person' },
+  { name: 'Ashish Nepal', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=13', bio: 'Dedicated to connecting you with global opportunities.', hint: 'person smiling' },
+  { name: 'Muhammad Munim Khan', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=14', bio: 'An expert in curating unforgettable travel experiences.', hint: 'person outdoors' },
+  { name: 'Marwan Marwan', role: 'Team Member', avatar: 'https://picsum.photos/200/200?random=15', bio: 'Passionate about helping you find your next career move.', hint: 'professional person' },
 ];
 
 
@@ -186,7 +180,7 @@ export default function Home() {
                         The driving force behind your next great adventure.
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-5">
                         {teamMembers.map((member) => (
                         <Card key={member.name} className="text-center">
                             <CardContent className="pt-6">
