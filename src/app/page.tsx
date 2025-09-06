@@ -38,7 +38,7 @@ export default function Home() {
 
       <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
-          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
+          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col items-center text-center space-y-3">
               <div className="p-4 bg-primary/10 rounded-full">
                 <Plane className="h-8 w-8 text-primary" />
@@ -57,33 +57,6 @@ export default function Home() {
                 Unlock your potential with international job placements, educational programs, and volunteer projects.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center space-y-3">
-              <div className="p-4 bg-primary/10 rounded-full">
-                <Wand2 className="h-8 w-8 text-primary" />
-              </div>
-              <h3 className="text-2xl font-bold font-headline">Personalized Planning</h3>
-              <p className="text-muted-foreground">
-                Let our AI-powered tool create a bespoke itinerary that perfectly matches your dreams and your budget.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-card">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
-          <div className="space-y-3">
-            <h2 className="text-3xl font-bold font-headline tracking-tighter md:text-4xl/tight">
-              Plan Your Dream Trip Today
-            </h2>
-            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Have a specific trip in mind? Use our innovative AI tool to generate a personalized itinerary in minutes.
-            </p>
-          </div>
-          <div className="mx-auto w-full max-w-sm space-y-2">
-             <Button asChild size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-                <Link href="/plan-your-trip">Start Planning with AI</Link>
-              </Button>
           </div>
         </div>
       </section>

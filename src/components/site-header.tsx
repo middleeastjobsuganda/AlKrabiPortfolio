@@ -12,7 +12,6 @@ import { Menu, Plane, Briefcase, Wand2, Users, Mail, X } from "lucide-react";
 const navItems = [
   { href: "/travel", label: "Travel", icon: Plane },
   { href: "/opportunities", label: "Opportunities", icon: Briefcase },
-  { href: "/plan-your-trip", label: "Plan Your Trip", icon: Wand2 },
   { href: "/about", label: "About Us", icon: Users },
   { href: "/contact", label: "Contact", icon: Mail },
 ];

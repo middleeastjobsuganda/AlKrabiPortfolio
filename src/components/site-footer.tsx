@@ -42,7 +42,6 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-2">
               <li><Link href="/travel" className="text-sm text-muted-foreground hover:text-primary">Travel</Link></li>
               <li><Link href="/opportunities" className="text-sm text-muted-foreground hover:text-primary">Opportunities</Link></li>
-              <li><Link href="/plan-your-trip" className="text-sm text-muted-foreground hover:text-primary">Plan Your Trip</Link></li>
             </ul>
           </div>
 
