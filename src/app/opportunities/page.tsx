@@ -7,6 +7,24 @@ import { Briefcase, BookOpen, HeartHandshake } from "lucide-react";
 
 const opportunities = [
   {
+    title: "Project Manager in Dubai, UAE",
+    category: "Job",
+    icon: Briefcase,
+    description: "Lead high-profile construction projects in one of the world's most dynamic cities. Excellent, tax-free salary package and benefits.",
+    image: "https://picsum.photos/600/400?random=1",
+    hint: "Dubai skyline",
+    tags: ["Construction", "UAE", "Management"],
+  },
+  {
+    title: "Financial Analyst in Riyadh, Saudi Arabia",
+    category: "Job",
+    icon: Briefcase,
+    description: "Join a leading investment firm in a key financial hub. Analyze market trends and support major investment decisions in a fast-growing economy.",
+    image: "https://picsum.photos/600/400?random=2",
+    hint: "Riyadh city",
+    tags: ["Finance", "Saudi Arabia", "Full-Time"],
+  },
+  {
     title: "English Teacher in Tokyo, Japan",
     category: "Education",
     icon: BookOpen,
@@ -41,24 +59,6 @@ const opportunities = [
     image: "https://picsum.photos/600/400?random=7",
     hint: "Singapore skyline",
     tags: ["Marketing", "Singapore", "Internship"],
-  },
-  {
-    title: "Study Abroad: Fine Arts in Florence, Italy",
-    category: "Education",
-    icon: BookOpen,
-    description: "A semester-long program for art students. Study Renaissance art history and develop your skills in painting and sculpture in the city of masters.",
-    image: "https://picsum.photos/600/400?random=8",
-    hint: "Florence art",
-    tags: ["Art", "Italy", "Study Abroad"],
-  },
-  {
-    title: "Community Health Worker in Rural Ghana",
-    category: "Volunteer",
-    icon: HeartHandshake,
-    description: "Work alongside local healthcare providers to run health education workshops and provide basic medical support in underserved communities.",
-    image: "https://picsum.photos/600/400?random=9",
-    hint: "Ghana community",
-    tags: ["Healthcare", "Ghana", "Volunteer"],
   },
 ];
 
