@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState, useFormStatus } from "react-dom";
 import { handleItineraryRequest, type ItineraryFormState } from "./actions";
 
 import { Button } from "@/components/ui/button";
@@ -42,7 +42,7 @@ const initialState: ItineraryFormState = {
 };
 
 export function ItineraryForm() {
-  const [state, formAction] = useFormState(handleItineraryRequest, initialState);
+  const [state, formAction] = useActionState(handleItineraryRequest, initialState);
   const { toast } = useToast();
   const { pending } = useFormStatus();
 
