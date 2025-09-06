@@ -57,7 +57,7 @@ export function SiteFooter() {
             <h3 className="font-semibold tracking-wider text-foreground">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li><a href="mailto:alkrabiagency@email.com" className="hover:text-primary">alkrabiagency@email.com</a></li>
-              <li><a href="tel:+1234567890" className="hover:text-primary">+1 (234) 567-890</a></li>
+              <li><a href="tel:+971526574124" className="hover:text-primary">+971 52 657 4124</a></li>
             </ul>
           </div>
         </div>
