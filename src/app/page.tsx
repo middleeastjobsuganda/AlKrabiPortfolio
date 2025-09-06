@@ -180,7 +180,7 @@ export default function Home() {
                         The driving force behind your next great adventure.
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-5">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-4">
                         {teamMembers.map((member) => (
                         <Card key={member.name} className="text-center">
                             <CardContent className="pt-6">
