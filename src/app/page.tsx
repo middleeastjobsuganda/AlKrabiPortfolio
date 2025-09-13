@@ -30,7 +30,7 @@ const teamMembers = [
     { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
     { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/seed/6/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman smiling' },
     { name: 'Wasim Al Janati', role: 'Team Member', avatar: 'https://picsum.photos/seed/7/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man professional' },
-    { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://picsum.photos/seed/8/200/200', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
+    { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
     { name: 'Hritik kumar', role: 'Team Member', avatar: 'https://picsum.photos/seed/9/200/200', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man outdoors' },
     { name: 'Shashika Jayaweera', role: 'Team Member', avatar: 'https://picsum.photos/seed/10/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman professional' },
     { name: 'Jaishankar Babu', role: 'Team Member', avatar: 'https://picsum.photos/seed/11/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
