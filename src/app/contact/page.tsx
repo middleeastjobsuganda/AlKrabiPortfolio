@@ -27,7 +27,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                     <h4 className="font-semibold">Al Krabi Agency</h4>
-                    <p className="text-muted-foreground">123 Travel Lane, Adventure City, 90210</p>
+                    <p className="text-muted-foreground">Po Box 15271 Dubai</p>
                 </div>
             </div>
             <div className="flex items-start gap-4">
