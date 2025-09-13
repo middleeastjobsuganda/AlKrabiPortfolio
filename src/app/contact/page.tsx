@@ -45,7 +45,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                     <h4 className="font-semibold">Phone</h4>
-                    <p className="text-muted-foreground">+971 52 657 4124</p>
+                    <a href="https://wa.me/+971526574124" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">+971 52 657 4124</a>
                 </div>
             </div>
         </div>
