@@ -7,11 +7,10 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Plane, Mail, Bot } from "lucide-react";
+import { Menu, Plane, Mail } from "lucide-react";
 
 const navItems = [
   { href: "/travel", label: "Travel", icon: Plane },
-  { href: "/plan-your-trip", label: "Plan Your Trip", icon: Bot },
   { href: "/contact", label: "Contact", icon: Mail },
 ];
 

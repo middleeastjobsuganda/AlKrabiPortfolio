@@ -20,7 +20,6 @@ export function SiteFooter() {
             <h3 className="font-semibold tracking-wider text-foreground">Quick Links</h3>
             <ul className="mt-4 space-y-2">
               <li><Link href="/travel" className="text-sm text-muted-foreground hover:text-primary">Travel</Link></li>
-              <li><Link href="/plan-your-trip" className="text-sm text-muted-foreground hover:text-primary">Plan Your Trip</Link></li>
               <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
             </ul>
           </div>
