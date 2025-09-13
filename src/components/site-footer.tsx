@@ -67,17 +67,6 @@ export function SiteFooter() {
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Al Krabi Travel and Opportunities Agency. All rights reserved.
           </p>
-          <div className="flex items-center gap-4 mt-4 md:mt-0">
-            <a href="#" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground">
-              <FacebookIcon className="h-5 w-5" />
-            </a>
-            <a href="#" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground">
-              <TwitterIcon className="h-5 w-5" />
-            </a>
-            <a href="#" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground">
-              <InstagramIcon className="h-5 w-5" />
-            </a>
-          </div>
         </div>
       </div>
     </footer>
