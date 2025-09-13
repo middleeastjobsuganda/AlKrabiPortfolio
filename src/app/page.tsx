@@ -31,6 +31,51 @@ const teamMembers = [
     { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
 ];
 
+const galleryItems = [
+    {
+      id: "qatar",
+      title: "Qatar",
+      description: "A hub of modern architecture and traditional souqs.",
+      href: "#",
+      image: "https://images.unsplash.com/photo-1542832455-23f316a7f853?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      id: "saudi-arabia",
+      title: "Saudi Arabia",
+      description: "A country of vast deserts and ancient history.",
+      href: "#",
+      image: "https://images.unsplash.com/photo-1599363579074-8003a30c52a3?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      id: "uae",
+      title: "United Arab Emirates",
+      description: "Home to futuristic cities and luxury shopping.",
+      href: "#",
+      image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      id: "bahrain",
+      title: "Bahrain",
+      description: "An island nation with a rich history in trade.",
+      href: "#",
+      image: "https://images.unsplash.com/photo-1581691178553-605807954e74?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      id: "kuwait",
+      title: "Kuwait",
+      description: "Known for its modern architecture and cultural institutions.",
+      href: "#",
+      image: "https://images.unsplash.com/photo-1554922300-47d0f803a681?q=80&w=2070&auto=format&fit=crop",
+    },
+     {
+      id: "oman",
+      title: "Oman",
+      description: "A land of stunning landscapes, from mountains to coasts.",
+      href: "#",
+      image: "https://images.unsplash.com/photo-1529155745148-a92540609390?q=80&w=2070&auto=format&fit=crop",
+    },
+  ];
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -134,7 +179,11 @@ export default function Home() {
         </div>
       </section>
 
-      <Gallery4 />
+      <Gallery4 
+        title="Countries We Operate In"
+        description="We have a strong presence and deep connections in these key Middle Eastern locations, offering a gateway to vibrant cultures and thriving economies."
+        items={galleryItems}
+      />
 
        <section id="about-us" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
