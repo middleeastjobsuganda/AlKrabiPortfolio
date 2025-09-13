@@ -46,11 +46,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white">
         <Image
-          src="https://picsum.photos/1920/1080"
-          alt="Tropical beach background"
+          src="https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_328706481_gw8aHygLpOqPXdcBMr1VfPsNSL03z8dV.jpg?raw=true"
+          alt="Desert landscape with camels at sunset"
           fill
           className="object-cover -z-10 brightness-75"
-          data-ai-hint="tropical beach"
+          data-ai-hint="desert camels"
           priority
         />
         <div className="container px-4 md:px-6">
