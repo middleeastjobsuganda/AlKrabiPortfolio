@@ -30,6 +30,14 @@ const teamMembers = [
     { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
 ];
 
+const countries = [
+  "Qatar",
+  "Saudi Arabia",
+  "United Arab Emirates",
+  "Bahrain",
+  "Kuwait",
+  "Oman",
+];
 
 export default function Home() {
   return (
@@ -130,6 +138,24 @@ export default function Home() {
                 We tailor our services to your unique aspirations, ensuring a personalized experience that exceeds your expectations.
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="countries" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+        <div className="container px-4 md:px-6">
+          <div className="text-center space-y-3 mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">Countries We Work In</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              We have a strong presence and deep connections in these key locations.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
+            {countries.map((country) => (
+              <div key={country} className="p-4 rounded-lg">
+                <h3 className="text-xl font-semibold text-foreground">{country}</h3>
+              </div>
+            ))}
           </div>
         </div>
       </section>
