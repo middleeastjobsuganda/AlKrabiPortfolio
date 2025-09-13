@@ -24,11 +24,11 @@ const testimonials = [
 ];
 
 const teamMembers = [
-    { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_141842346_rhbK25DD8qs5l3yLMxu3wQ4q6O410aQi.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg?raw=true', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
-    { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_285789664_ctg73N1EXAX3EZ1LlkBkneoqJJTPGutj.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
-    { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
+    { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_141842346_rhbK25DD8qs5l3yLMxu3wQ4q6O410aQi.jpg', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+    { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
+    { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_285789664_ctg73N1EXAX3EZ1LlkBkneoqJJTPGutj.jpg', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
+    { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+    { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
 ];
 
 const galleryItems = [
@@ -51,7 +51,7 @@ const galleryItems = [
       title: "United Arab Emirates",
       description: "Home to futuristic cities and luxury shopping.",
       href: "#",
-      image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop",
+      image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/uae.jpg?raw=true",
     },
     {
       id: "bahrain",
