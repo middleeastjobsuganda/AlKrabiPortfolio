@@ -24,11 +24,11 @@ const testimonials = [
 ];
 
 const teamMembers = [
-    { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_141842346_rhbK25DD8qs5l3yLMxu3wQ4q6O410aQi.jpg', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
-    { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_285789664_ctg73N1EXAX3EZ1LlkBkneoqJJTPGutj.jpg', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
-    { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
+    { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_141842346_rhbK25DD8qs5l3yLMxu3wQ4q6O410aQi.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+    { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg?raw=true', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
+    { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_285789664_ctg73N1EXAX3EZ1LlkBkneoqJJTPGutj.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
+    { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+    { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
 ];
 
 const galleryItems = [
@@ -44,7 +44,7 @@ const galleryItems = [
       title: "Saudi Arabia",
       description: "A country of vast deserts and ancient history.",
       href: "#",
-      image: "https://images.unsplash.com/photo-1599363579074-8003a30c52a3?q=80&w=2070&auto=format&fit=crop",
+      image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/saudi.jpg?raw=true",
     },
     {
       id: "uae",
@@ -81,7 +81,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white">
         <Image
-          src="https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_328706481_gw8aHygLpOqPXdcBMr1VfPsNSL03z8dV.jpg"
+          src="https://raw.githubusercontent.com/middleeastjobsuganda/middleeastjobspicture/main/240_F_328706481_gw8aHygLpOqPXdcBMr1VfPsNSL03z8dV.jpg?raw=true"
           alt="Desert landscape with camels at sunset"
           fill
           className="object-cover -z-10 brightness-75"
