@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Briefcase, Plane, Globe, Users, Star } from "lucide-react";
+import { Plane, Globe, Users, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery4 } from "@/components/ui/gallery4";
@@ -36,42 +36,42 @@ const galleryItems = [
       id: "qatar",
       title: "Qatar",
       description: "A hub of modern architecture and traditional souqs.",
-      href: "/opportunities",
+      href: "/contact",
       image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/qatar.jpg?raw=true",
     },
     {
       id: "saudi-arabia",
       title: "Saudi Arabia",
       description: "A country of vast deserts and ancient history.",
-      href: "/opportunities",
+      href: "/contact",
       image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/saudi.jpg?raw=true",
     },
     {
       id: "uae",
       title: "United Arab Emirates",
       description: "Home to futuristic cities and luxury shopping.",
-      href: "/opportunities",
+      href: "/contact",
       image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/uae.jpg?raw=true",
     },
     {
       id: "bahrain",
       title: "Bahrain",
       description: "An island nation with a rich history in trade.",
-      href: "/opportunities",
+      href: "/contact",
       image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/bahrain.jpg?raw=true",
     },
     {
       id: "kuwait",
       title: "Kuwait",
       description: "Known for its modern architecture and cultural institutions.",
-      href: "/opportunities",
+      href: "/contact",
       image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/KUWAIT.jpg?raw=true",
     },
      {
       id: "oman",
       title: "Oman",
       description: "A land of stunning landscapes, from mountains to coasts.",
-      href: "/opportunities",
+      href: "/contact",
       image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/oman.jpg?raw=true",
     },
   ];
@@ -101,7 +101,7 @@ export default function Home() {
                 <Link href="/travel">Explore Travel Packages</Link>
               </Button>
               <Button asChild size="lg" variant="secondary">
-                <Link href="/opportunities">Find Opportunities</Link>
+                <Link href="/contact">Contact Us</Link>
               </Button>
             </div>
           </div>
@@ -110,25 +110,14 @@ export default function Home() {
 
       <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
-          <div className="grid grid-cols-2 gap-8">
-            <div className="flex flex-col items-center text-center space-y-3">
-              <div className="p-4 bg-primary/10 rounded-full">
-                <Plane className="h-8 w-8 text-primary" />
-              </div>
-              <h3 className="text-2xl font-bold font-headline">Curated Travel</h3>
-              <p className="text-muted-foreground text-sm">
-                Discover breathtaking destinations with our expertly crafted travel packages.
-              </p>
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="p-4 bg-primary/10 rounded-full">
+              <Plane className="h-8 w-8 text-primary" />
             </div>
-            <div className="flex flex-col items-center text-center space-y-3">
-              <div className="p-4 bg-primary/10 rounded-full">
-                <Briefcase className="h-8 w-8 text-primary" />
-              </div>
-              <h3 className="text-2xl font-bold font-headline">Global Opportunities</h3>
-              <p className="text-muted-foreground text-sm">
-                Unlock your potential with international job placements and educational programs.
-              </p>
-            </div>
+            <h3 className="text-2xl font-bold font-headline">Curated Travel</h3>
+            <p className="text-muted-foreground text-sm">
+              Discover breathtaking destinations with our expertly crafted travel packages.
+            </p>
           </div>
         </div>
       </section>
