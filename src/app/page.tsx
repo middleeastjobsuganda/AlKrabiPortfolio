@@ -27,7 +27,7 @@ const teamMembers = [
     { name: 'David Amankwah', role: 'Team Member', avatar: 'https://picsum.photos/seed/2/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'man outdoors' },
     { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg?raw=true', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
     { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_285789664_ctg73N1EXAX3EZ1LlkBkneoqJJTPGutj.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
-    { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://picsum.photos/seed/5/200/200', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
+    { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
     { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/seed/6/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman smiling' },
     { name: 'Wasim Al Janati', role: 'Team Member', avatar: 'https://picsum.photos/seed/7/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man professional' },
     { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://picsum.photos/seed/8/200/200', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
@@ -184,7 +184,7 @@ export default function Home() {
                         {teamMembers.map((member) => (
                         <Card key={member.name} className="text-center">
                             <CardContent className="pt-6">
-                            <Avatar className="w-24 h-24 mx-auto mb-4">
+                            <Avatar className="w-20 h-20 mx-auto mb-4">
                                 <AvatarImage src={member.avatar} alt={member.name} data-ai-hint={member.hint} />
                                 <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
                             </Avatar>
