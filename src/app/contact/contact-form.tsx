@@ -30,21 +30,21 @@ export function ContactForm() {
     },
   });
 
-  const [mailtoHref, setMailtoHref] = useState("mailto:alkrabiagency@email.com");
+  const [whatsappHref, setWhatsappHref] = useState("https://wa.me/+971526574124");
 
   const watchedFields = form.watch();
 
   useEffect(() => {
     const { name, email, subject, message } = watchedFields;
-    const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
-    const href = `mailto:alkrabiagency@email.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    setMailtoHref(href);
+    const body = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`;
+    const href = `https://wa.me/+971526574124?text=${encodeURIComponent(body)}`;
+    setWhatsappHref(href);
   }, [watchedFields]);
   
   function onSubmit() {
      toast({
-      title: "Opening Email Client",
-      description: "Please complete sending your message in your email application.",
+      title: "Opening WhatsApp",
+      description: "Please complete sending your message in WhatsApp.",
     });
   }
 
@@ -104,7 +104,7 @@ export function ContactForm() {
           )}
         />
         <Button asChild className="w-full">
-            <a href={mailtoHref}>Send Inquiry</a>
+            <a href={whatsappHref} target="_blank" rel="noopener noreferrer">Send Inquiry</a>
         </Button>
       </form>
     </Form>
