@@ -25,7 +25,7 @@ const testimonials = [
 const teamMembers = [
     { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_141842346_rhbK25DD8qs5l3yLMxu3wQ4q6O410aQi.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
     { name: 'David Amankwah', role: 'Team Member', avatar: 'https://picsum.photos/seed/2/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'man outdoors' },
-    { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://picsum.photos/seed/3/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
+    { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg?raw=true', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
     { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://picsum.photos/seed/4/200/200', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
     { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://picsum.photos/seed/5/200/200', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
     { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/seed/6/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman smiling' },
@@ -106,7 +106,7 @@ export default function Home() {
               We are dedicated to providing you with unparalleled service and access to a world of possibilities.
             </p>
           </div>
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-3">
+          <div className="grid gap-8 grid-cols-1 sm:grid-cols-3">
             <Card>
               <CardHeader className="items-center">
                 <div className="p-3 bg-primary/10 rounded-full">
@@ -235,5 +235,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
