@@ -35,7 +35,7 @@ export function SiteFooter() {
           <div>
             <h3 className="font-semibold tracking-wider text-foreground">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li><a href="mailto:alkrabiagency@email.com" className="hover:text-primary">alkrabiagency@email.com</a></li>
+              <li><a href="mailto:sheikhzaid@gmail.com" className="hover:text-primary">sheikhzaid@gmail.com</a></li>
               <li><a href="https://wa.me/+971526574124" target="_blank" rel="noopener noreferrer" className="hover:text-primary">+971 52 657 4124</a></li>
             </ul>
           </div>
