@@ -72,7 +72,7 @@ const galleryItems = [
       title: "Oman",
       description: "A land of stunning landscapes, from mountains to coasts.",
       href: "#",
-      image: "https://images.unsplash.com/photo-1529155745148-a92540609390?q=80&w=2070&auto=format&fit=crop",
+      image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/oman.jpg?raw=true",
     },
   ];
 
