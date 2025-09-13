@@ -82,11 +82,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <section className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white">
         <Image
-          src="https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_328706481_gw8aHygLpOqPXdcBMr1VfPsNSL03z8dV.jpg?raw=true"
-          alt="Vibrant cityscape at night"
+          src="https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/multi-ethnic-group-of-people-on-a-business-meeting-in-the-uae-business-people-walking-outdoors-and-talking-about-business-DMDF04870.jpg?raw=true"
+          alt="Business meeting in the UAE"
           fill
           className="object-cover -z-10 brightness-75"
-          data-ai-hint="cityscape night"
+          data-ai-hint="business meeting"
           priority
         />
         <div className="container px-4 md:px-6">
