@@ -24,20 +24,10 @@ const testimonials = [
 
 const teamMembers = [
     { name: 'Vivek Thakur', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_141842346_rhbK25DD8qs5l3yLMxu3wQ4q6O410aQi.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'David Amankwah', role: 'Team Member', avatar: 'https://picsum.photos/seed/2/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'man outdoors' },
     { name: 'Kiramat Shah', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_197755724_HmIqFoWFmD3jbdMyYsZ10KLiTQj1PwUW.jpg?raw=true', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
     { name: 'Abhijit Nair', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_285789664_ctg73N1EXAX3EZ1LlkBkneoqJJTPGutj.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
     { name: 'Sanju Paulson', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_464874339_Rc7McGaz327ljzgnWgke4crdDAdI2Yu2.jpg?raw=true', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'Allianne Lois Florendo', role: 'Team Member', avatar: 'https://picsum.photos/seed/6/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman smiling' },
-    { name: 'Wasim Al Janati', role: 'Team Member', avatar: 'https://picsum.photos/seed/7/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man professional' },
     { name: 'Mohammad Farrukh', role: 'Team Member', avatar: 'https://github.com/middleeastjobsuganda/middleeastjobspicture/blob/main/240_F_87480778_MLwEwiU81VR3aaZsAQHru7K14Xr025WF.jpg?raw=true', bio: 'Committed to providing personalized service and support.', hint: 'man smiling' },
-    { name: 'Hritik kumar', role: 'Team Member', avatar: 'https://picsum.photos/seed/9/200/200', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man outdoors' },
-    { name: 'Shashika Jayaweera', role: 'Team Member', avatar: 'https://picsum.photos/seed/10/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'woman professional' },
-    { name: 'Jaishankar Babu', role: 'Team Member', avatar: 'https://picsum.photos/seed/11/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
-    { name: 'Shameer Chirammal House', role: 'Team Member', avatar: 'https://picsum.photos/seed/12/200/200', bio: 'Committed to providing personalized service and support.', hint: 'man portrait' },
-    { name: 'Ashish Nepal', role: 'Team Member', avatar: 'https://picsum.photos/seed/13/200/200', bio: 'Dedicated to connecting you with global opportunities.', hint: 'man professional' },
-    { name: 'Muhammad Munim Khan', role: 'Team Member', avatar: 'https://picsum.photos/seed/14/200/200', bio: 'An expert in curating unforgettable travel experiences.', hint: 'man outdoors' },
-    { name: 'Marwan Marwan', role: 'Team Member', avatar: 'https://picsum.photos/seed/15/200/200', bio: 'Passionate about helping you find your next career move.', hint: 'man smiling' },
 ];
 
 
@@ -184,7 +174,7 @@ export default function Home() {
                         {teamMembers.map((member) => (
                         <Card key={member.name} className="text-center">
                             <CardContent className="pt-6">
-                            <Avatar className="w-20 h-20 mx-auto mb-4">
+                            <Avatar className="w-16 h-16 mx-auto mb-4">
                                 <AvatarImage src={member.avatar} alt={member.name} data-ai-hint={member.hint} />
                                 <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
                             </Avatar>
