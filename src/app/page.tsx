@@ -65,7 +65,7 @@ const galleryItems = [
       title: "Kuwait",
       description: "Known for its modern architecture and cultural institutions.",
       href: "#",
-      image: "https://images.unsplash.com/photo-1554922300-47d0f803a681?q=80&w=2070&auto=format&fit=crop",
+      image: "https://github.com/middleeastjobsuganda/middleeastjobscountrypicture/blob/main/KUWAIT.jpg?raw=true",
     },
      {
       id: "oman",
