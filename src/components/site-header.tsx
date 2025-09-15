@@ -7,10 +7,11 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Plane, Mail } from "lucide-react";
+import { Menu, Plane, Mail, Briefcase } from "lucide-react";
 
 const navItems = [
   { href: "/travel", label: "Travel", icon: Plane },
+  { href: "/contact", label: "Jobs", icon: Briefcase },
   { href: "/contact", label: "Contact", icon: Mail },
 ];
 
@@ -31,11 +32,11 @@ export function SiteHeader() {
           <nav className="hidden gap-6 text-sm md:flex">
             {navItems.map((item) => (
               <Link
-                key={item.href}
+                key={item.href + item.label}
                 href={item.href}
                 className={cn(
                   "transition-colors hover:text-foreground/80",
-                  pathname === item.href
+                  pathname === item.href && item.label.toLowerCase() !== 'contact' && item.label.toLowerCase() !== 'jobs'
                     ? "text-foreground"
                     : "text-foreground/60"
                 )}
@@ -70,12 +71,12 @@ export function SiteHeader() {
               <div className="flex flex-col space-y-2 pr-6">
                 {navItems.map((item) => (
                   <Link
-                    key={item.href}
+                    key={item.href + item.label}
                     href={item.href}
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={cn(
                       "flex items-center gap-3 rounded-md p-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground",
-                      pathname === item.href
+                      pathname === item.href && item.label.toLowerCase() !== 'contact' && item.label.toLowerCase() !== 'jobs'
                         ? "bg-primary text-primary-foreground"
                         : "text-foreground/70"
                     )}

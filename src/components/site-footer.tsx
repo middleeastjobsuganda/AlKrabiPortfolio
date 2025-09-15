@@ -12,7 +12,7 @@ export function SiteFooter() {
               <span className="font-bold text-xl font-headline">Al Krabi</span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground">
-              Opening doors to unforgettable adventures and life-changing global experiences.
+              Opening doors to global job opportunities and unforgettable adventures.
             </p>
           </div>
 
@@ -20,6 +20,7 @@ export function SiteFooter() {
             <h3 className="font-semibold tracking-wider text-foreground">Quick Links</h3>
             <ul className="mt-4 space-y-2">
               <li><Link href="/travel" className="text-sm text-muted-foreground hover:text-primary">Travel</Link></li>
+              <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Jobs</Link></li>
               <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
             </ul>
           </div>

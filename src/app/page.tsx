@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Plane, Globe, Users, Star } from "lucide-react";
+import { Plane, Globe, Users, Star, Briefcase, Wallet } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery4 } from "@/components/ui/gallery4";
@@ -95,14 +95,14 @@ export default function Home() {
               Your Journey, Your Opportunity
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-              Al Krabi Travel and Opportunities Agency opens doors to unforgettable adventures and life-changing global experiences.
+              Al Krabi opens doors to global job opportunities and unforgettable adventures. We help you secure your dream job and you can pay in installments after you start working.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <Link href="/travel">Explore Travel Packages</Link>
+                <Link href="/contact">Find a Job</Link>
               </Button>
               <Button asChild size="lg" variant="secondary">
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/travel">Explore Travel</Link>
               </Button>
             </div>
           </div>
@@ -111,14 +111,25 @@ export default function Home() {
 
       <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center text-center space-y-3">
-            <div className="p-4 bg-primary/10 rounded-full">
-              <Plane className="h-8 w-8 text-primary" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="flex flex-col items-center text-center space-y-3">
+              <div className="p-4 bg-primary/10 rounded-full">
+                <Briefcase className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold font-headline">Global Careers</h3>
+              <p className="text-muted-foreground text-sm">
+                We connect you with career opportunities abroad and offer flexible payment options after you secure a job.
+              </p>
             </div>
-            <h3 className="text-2xl font-bold font-headline">Curated Travel</h3>
-            <p className="text-muted-foreground text-sm">
-              Discover breathtaking destinations with our expertly crafted travel packages.
-            </p>
+            <div className="flex flex-col items-center text-center space-y-3">
+              <div className="p-4 bg-primary/10 rounded-full">
+                <Plane className="h-8 w-8 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold font-headline">Curated Travel</h3>
+              <p className="text-muted-foreground text-sm">
+                Discover breathtaking destinations with our expertly crafted travel packages.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -131,7 +142,7 @@ export default function Home() {
               We are dedicated to providing you with unparalleled service and access to a world of possibilities.
             </p>
           </div>
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-3">
+          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             <Card>
               <CardHeader className="items-center">
                 <div className="p-3 bg-primary/10 rounded-full">
@@ -165,6 +176,17 @@ export default function Home() {
                 We tailor our services to your unique aspirations, ensuring a personalized experience that exceeds your expectations.
               </CardContent>
             </Card>
+            <Card>
+              <CardHeader className="items-center">
+                <div className="p-3 bg-primary/10 rounded-full">
+                  <Wallet className="h-8 w-8 text-primary" />
+                </div>
+                <CardTitle className="font-headline">Flexible Payments</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center text-muted-foreground">
+                For job placements, we offer the flexibility to pay in installments after you've started your new job.
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -196,7 +218,7 @@ export default function Home() {
                         At Al Krabi Travel and Opportunities Agency, our mission is to seamlessly blend the thrill of discovery with the pursuit of personal and professional growth. We believe that travel is more than just visiting new places; it's about experiencing new cultures, forging connections, and discovering oneself.
                     </p>
                     <p>
-                        We are committed to providing meticulously planned travel experiences and curated global opportunities that inspire, educate, and empower individuals to broaden their horizons and achieve their full potential.
+                        Alongside our bespoke travel packages, we are committed to connecting talented individuals with life-changing career opportunities abroad. We provide end-to-end support in the job search process, with the unique advantage of allowing clients to pay for our services in installments once they have secured their position. Our goal is to empower you to broaden your horizons and achieve your full potential, both personally and professionally.
                     </p>
                     </CardContent>
                 </Card>

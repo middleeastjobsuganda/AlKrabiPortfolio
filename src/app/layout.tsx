@@ -9,8 +9,8 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Al Krabi Portfolio",
-  description: "Travel packages and global opportunities by Al Krabi Travel and Opportunities Agency.",
+  title: "Al Krabi - Travel and Opportunities",
+  description: "Travel packages and global job opportunities by Al Krabi Agency. Pay for job placement services in installments after you start working.",
 };
 
 export default function RootLayout({
