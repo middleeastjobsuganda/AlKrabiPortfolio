@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Toaster } from "@/components/ui/toaster";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -20,7 +21,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-8C6L3XVBEG"></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-8C6L3XVBEG');
+          `}
+        </Script>
+      </head>
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.variable)}>
         <div className="relative flex min-h-screen flex-col">
           <SiteHeader />
